@@ -1,0 +1,11 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	cherry-pick = cherry-pick -x
+	cp = cherry-pick
+	cpx = cherry-pick -x
+	graph = log --oneline --graph --decorate --all
+[push]
+	default = simple
